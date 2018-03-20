@@ -17,7 +17,7 @@ describe('/todos routes', () => {
       .expect(200)
       .then((res) => {
         expect(res).toBeDefined();
-        expect(res.body).toEqual("");
+        expect(res.body).toEqual({});
       });
   });
 
